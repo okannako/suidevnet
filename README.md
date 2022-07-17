@@ -16,8 +16,12 @@ sudo ufw allow 9184
 ```
 ## Node Yükleme
 ```
+apt install tmux
+tmux
 wget -O sui.sh https://api.nodes.guru/sui.sh && chmod +x sui.sh && ./sui.sh
 ```
+- Tmux ekranını arka plana atmak için `ctrl+b d` basıyoruz. Tekrar girmek için önce `tmux ls` yazıyoruz ve ekranın ismini görüyoruz. Daha sonra `tmux attach -t isim` yazıp ilgili tmux ekranına girmiş oluyoruz. 
+
 ## Node İle İlgili Kodlar
 ### Kontrol
 ```

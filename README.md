@@ -49,5 +49,5 @@ rm /etc/systemd/system/suid.service
 ### Site Üzerinden Node Durumu
  - https://node.sui.zvalid.com/
 ## Kurulum Rehber Videosu ve Discord Linki
- -
+ - https://youtu.be/7aLtCeD78kg
  - https://discord.gg/TRVphefMdh

@@ -31,7 +31,7 @@ curl -s -X POST http://127.0.0.1:9000 -H 'Content-Type: application/json' -d '{ 
 ### Versiyon Kontrolü (20 Temmuz güncellemesinden sonra)
 - Şu kodu `grep 'version =' /root/sui/crates/sui/Cargo.toml` girdiğinizde aşağıdaki gibi bir sonuç vermeli.
 ```
-version = "0.6.1"
+version = "0.6.2"
 ```
 ### Log Kontrolü
 ```

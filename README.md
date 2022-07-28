@@ -28,7 +28,7 @@ wget -O sui.sh https://api.nodes.guru/sui.sh && chmod +x sui.sh && ./sui.sh
 curl -s -X POST http://127.0.0.1:9000 -H 'Content-Type: application/json' -d '{ "jsonrpc":"2.0", "method":"rpc.discover","id":1}' | jq .result.info
 ```
 
-### Versiyon Kontrolü (20 Temmuz güncellemesinden sonra)
+### Versiyon Kontrolü (27 Temmuz güncellemesinden sonra)
 - Şu kodu `grep 'version =' /root/sui/crates/sui/Cargo.toml` girdiğinizde aşağıdaki gibi bir sonuç vermeli.
 ```
 version = "0.6.2"
